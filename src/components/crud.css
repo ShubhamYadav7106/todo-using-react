@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.crud_add_data{
+    margin: 20px 0px;
+}
+.viewDataTitle{
+    margin-bottom: 20px;
+    
+}
+.crud_add_data input{
+   margin: 0 8px;
+    padding: 4px 0 4px 4px;
+    
+}
+ 
+
+.crud_add_data button{
+    cursor: pointer;
+    border: 1px solid;
+    padding: 4px 10px;
+    margin-top: 23px;
+}
+.crud_add_data button:hover{
+    
+    cursor: pointer;
+    background-color: white;
+ }
+ .alert_span{
+    text-align: center;
+    margin: 22px  0 0 22px;
+  
+ }
+ .view_container{
+    text-align: center;
+    margin: 0 17px;
+    
+ }
+ .view_container button{
+padding: 2px 10px;
+cursor: pointer;
+    border: 1px solid;
+ }
+ 
+ .head_data th{
+    border: 1px solid black;
+    padding: 10px 12px;
+ }
+ .view_container table  td{
+    border: 1px solid black;
+    padding: 10px 12px;
+
+ }
+ .view_container table  td:hover{
+    background-color: rgb(233, 233, 233);
+
+ }
+ .view_container button:hover{
+    
+    cursor: pointer;
+    background-color: white;
+ }
+ .crudBody{
+    margin: auto;
+    width: min-content;
+ }
+ .title_app{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+
+/* update form  */
+
+.update_form{
+   text-align: center;
+    padding: 50px 0;
+    position: absolute;
+    background-color: rgb(184, 218, 208);
+    height: 500px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: none;
+}
+
+.update_form input {
+   display: block;
+   margin: 20px auto;
+   padding: 10px 15px;
+   width: 80%;
+}
+.update_form button{
+   padding: 10px 15px;
+   background: #111;
+   border: none;
+   color: #fff;
+   width: 80%;
+   cursor: pointer;
+   transition: .5s ease-in-out;
+}
+.update_form button:hover{
+   background: transparent;
+   color: #111;
+   border: 1px solid;
+}
+
+.show{
+   display: block;
+}
